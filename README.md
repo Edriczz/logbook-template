@@ -10,6 +10,12 @@ To use this template, you need a LaTeX distribution installed on your system.
 -   **Fonts**: The **Poppins** font family must be installed on your system.
     -   You can download Poppins from [Google Fonts](https://fonts.google.com/specimen/Poppins).
 
+> [!TIP]
+> **Why Local LaTeX?**
+> Having a local LaTeX installation gives you the advantage of using AI agents on text editors like VS Code or Google Antigravity.
+>
+> If you don't have local LaTeX installed, please watch this video first: [How to Install LaTeX](https://www.youtube.com/watch?v=Mty0vHb0knI)
+
 ## Usage
 
 1.  **Clone the Repository**
