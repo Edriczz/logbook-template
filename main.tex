@@ -1,0 +1,106 @@
+%!TeX program = xelatex
+\documentclass[a4paper,12pt]{article}
+
+% Packages
+\usepackage{geometry}
+\geometry{top=1.5cm, bottom=1.5cm, left=2cm, right=2cm}
+\usepackage{graphicx}
+\usepackage{fontspec}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage[table]{xcolor}
+\definecolor{headergrey}{RGB}{190,190,190}
+
+% Font Setup
+\setmainfont{Poppins}
+\pagestyle{empty}
+
+\begin{document}
+
+% 1. LOGO
+\noindent
+\begin{flushright}
+    \includegraphics[width=0.3\textwidth]{PT_XXXXX_Tbk.png} 
+\end{flushright}
+
+\vspace{0.2cm}
+
+% 2. TITLE
+\begin{center}
+    \Large DAILY ACTIVITY REPORT \\ \vspace{0.2cm}
+    \large INTERNSHIP PROGRAM PT XXXXX Tbk.
+\end{center}
+
+\vspace{0.4cm}
+
+% 3. IDENTITY SECTION
+\noindent
+\begin{tabular}{@{} p {5 cm} l }
+    Name & : XXXXXX \\
+    NIM & : XXXXX \\
+    Institution & : UI/UGM/ITB/ITS/....\\
+    Internship Department & : XXXXXX\\
+    Period & : XXXXX \\
+\end{tabular}
+
+\vspace{0.4cm}
+
+% 4. TABLE
+\begin{longtable}{|p{3.2cm}|>{\centering\arraybackslash}p{2.8cm}|p{6.5cm}|p{2.5cm}|}
+\hline
+\rowcolor{headergrey}
+\multicolumn{1}{|>{\centering\arraybackslash}p{3.2cm}|}{Day, Date} & 
+\multicolumn{1}{>{\centering\arraybackslash}p{2.8cm}|}{Working Status (WFO/WFH)} & 
+\multicolumn{1}{>{\centering\arraybackslash}p{6.5cm}|}{Daily Activity} & 
+\multicolumn{1}{>{\centering\arraybackslash}p{2.5cm}|}{Internship Supervisor Sign} \\
+\hline
+\endfirsthead
+\hline
+\endhead
+
+Mon, 01 Dec 2025 & WFO & this for for Mon, 01 Dec 2025 & \\
+\hline
+Tue, 02 Dec 2025 & WFO & this for for Tue, 02 Dec 2025 & \\
+\hline
+Wed, 03 Dec 2025 & WFO & this for for Wed, 03 Dec 2025 & \\
+\hline
+Thu, 04 Dec 2025 & WFO & this for for Thu, 04 Dec 2025 & \\
+\hline
+Fri, 05 Dec 2025 & WFO & this for for Fri, 05 Dec 2025 & \\
+\hline
+Mon, 08 Dec 2025 & WFO & this for for Mon, 08 Dec 2025 & \\
+\hline
+Tue, 09 Dec 2025 & WFO & this for for Tue, 09 Dec 2025 & \\
+\hline
+Wed, 10 Dec 2025 & WFO & this for for Wed, 10 Dec 2025 & \\
+\hline
+Thu, 11 Dec 2025 & WFO & this for for Thu, 11 Dec 2025 & \\
+\hline
+Fri, 12 Dec 2025 & WFO & this for for Fri, 12 Dec 2025 & \\
+\hline
+Mon, 15 Dec 2025 & WFO & this for for Mon, 15 Dec 2025 & \\
+\hline
+Tue, 16 Dec 2025 & WFO & this for for Tue, 16 Dec 2025 & \\
+\hline
+Wed, 17 Dec 2025 & WFO & this for for Wed, 17 Dec 2025 & \\
+\hline
+Thu, 18 Dec 2025 & WFO & this for for Thu, 18 Dec 2025 & \\
+\hline
+Fri, 19 Dec 2025 & WFO & this for for Fri, 19 Dec 2025 & \\
+\hline
+Mon, 22 Dec 2025 & WFO & this for for Mon, 22 Dec 2025 & \\
+\hline
+Tue, 23 Dec 2025 & WFO & this for for Tue, 23 Dec 2025 & \\
+\hline
+Wed, 24 Dec 2025 & WFO & this for for Wed, 24 Dec 2025 & \\
+\hline
+Mon, 29 Dec 2025 & WFO & this for for Mon, 29 Dec 2025 & \\
+\hline
+Tue, 30 Dec 2025 & WFO & this for for Tue, 30 Dec 2025 & \\
+\hline
+Wed, 31 Dec 2025 & WFO & this for for Wed, 31 Dec 2025 & \\
+\hline
+\end{longtable}
+
+\end{document}
